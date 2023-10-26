@@ -28,6 +28,8 @@ nav {
 h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
+    text-shadow: 2px 3px 0 black;
+    color: var(--color-prim) !important;
 }
 
 h2 {
@@ -56,6 +58,8 @@ h3 {
 p {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
+    text-shadow: 1px 0.5px 0px black;
+    color: var(--color-prim) !important;
 }
 
 .p-es {
