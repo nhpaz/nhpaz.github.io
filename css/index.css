@@ -6,6 +6,11 @@
     --color-quin: #322a32;
 }
 
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(../font/RobotoSlab-SemiBold.ttf);
+}
+
 .inter {
     color: var(--color-secu);
     font-size: 35px;
@@ -26,21 +31,30 @@ nav {
 }
 
 h1 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 600;
     text-shadow: 2px 3px 0 black;
     color: var(--color-prim) !important;
+    -webkit-text-stroke: black 1px;
 }
 
 h2 {
     font-weight: 600;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--color-prim);
+}
+
+.h2-sli {
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    color: var(--color-prim);
+    -webkit-text-stroke: black 1px;
+    text-shadow: 2px 3px 0 black;
 }
 
 h3 {
     font-weight: 600;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--color-quin);
 }
 
@@ -56,14 +70,21 @@ h3 {
 }
 
 p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.p-sli {
+    font-family: 'Roboto Slab', serif;
     font-weight: 300;
     text-shadow: 1px 0.5px 0px black;
     color: var(--color-prim) !important;
+    -webkit-text-stroke: black 0.3px;
+    font-size: 1.3rem;
 }
 
 .p-es {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 300;
     color: var(--color-prim);
 }
@@ -166,7 +187,7 @@ p {
 }
 
 .btn-wps-men {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 600;
     text-decoration: none;
     background-color: #0df053;
@@ -185,7 +206,7 @@ p {
 
 .btn-llamada {
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 600;
     text-decoration: none;
     background-color: #f00d0d;
@@ -310,4 +331,18 @@ body {
 
 .slider-nav a:hover {
     opacity: 1;
+}
+
+.llamenos {
+    font-weight: 600;
+    color: var(--color-prim);
+    text-shadow: 2px 3px 0 black;
+}
+
+.llamenos a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    color: var(--color-prim);
+    text-shadow: 2px 3px 0 black;
 }
