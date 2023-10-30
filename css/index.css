@@ -7,8 +7,13 @@
 }
 
 @font-face {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab-SemiBold';
     src: url(../font/RobotoSlab-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(../font/RobotoSlab-Light.ttf);
 }
 
 .inter {
@@ -31,7 +36,7 @@ nav {
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab-SemiBold', serif;
     font-weight: 600;
     text-shadow: 2px 3px 0 black;
     color: var(--color-prim) !important;
@@ -40,13 +45,13 @@ h1 {
 
 h2 {
     font-weight: 600;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab-SemiBold', serif;
     color: var(--color-prim);
 }
 
 .h2-sli {
     font-weight: 600;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab-SemiBold', serif;
     color: var(--color-prim);
     -webkit-text-stroke: black 1px;
     text-shadow: 2px 3px 0 black;
