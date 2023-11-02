@@ -100,12 +100,12 @@ p {
 }
 
 .casa-footer h3 {
+    color: var(--color-prim);
     margin: 20px 0;
     border-bottom: 1px solid #614c4c;
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 9px;
-    color: var(--color-prim);
 }
 
 .carousel-item {
