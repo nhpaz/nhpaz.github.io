@@ -101,10 +101,11 @@ p {
 
 .casa-footer h3 {
     margin: 20px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #614c4c;
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 9px;
+    color: var(--color-prim);
 }
 
 .carousel-item {
@@ -127,7 +128,7 @@ p {
 }
 
 .overlay-uno {
-    background-image: url(/img/slide_3-1.jpg);
+    background-image: url(/img/slide_1-1.jpg);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -149,7 +150,7 @@ p {
 }
 
 .overlay-tres {
-    background-image: url(/img/slide_1-1.jpg);
+    background-image: url(/img/slide_3-1.jpg);
     position: absolute;
     bottom: 0;
     left: 0;
